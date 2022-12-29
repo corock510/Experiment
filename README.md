@@ -1,6 +1,7 @@
 # Experiment
 
 ## 環境設定、ローカル立ち上げ
+$ cd src  
 $ composer install  
 $ docker compose up -d --build  
 
