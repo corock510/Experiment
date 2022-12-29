@@ -5,6 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Xdebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9003,
+      "pathMappings": {
+        "/var/www/html": "${workspaceRoot}/src"
+      }
+    },
+    {
       "name": "Launch built-in server and debug",
       "type": "php",
       "request": "launch",
@@ -27,16 +36,6 @@
       "cwd": "${fileDirname}",
       "externalConsole": false,
       "port": 9003
-    },
-    {
-      "name": "Xdebug",
-      "type": "php",
-      "request": "launch",
-      "port": 9003,
-      "pathMappings": {
-        "/var/www/html": "${workspaceRoot}/src"
-      }
-
     }
   ]
 }
